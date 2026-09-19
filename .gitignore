@@ -1,0 +1,68 @@
+# ==========================================
+# Dr. Amit Khandelwal Executive Portfolio
+# Production Git Ignore Configuration
+# ==========================================
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Production Build Artifacts
+dist/
+dist-ssr/
+build/
+out/
+.vercel
+.netlify
+
+# Local Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Vite / Bundler / Build Cache
+.vite/
+.turbo/
+.cache/
+.parcel-cache/
+.temp/
+*.tmp
+*.temp
+
+# Test Coverage
+coverage/
+*.lcov
+.nyc_output
+
+# Editor & IDE Directories
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swo
+*.swp
+
+# OS System Files & Caches
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
