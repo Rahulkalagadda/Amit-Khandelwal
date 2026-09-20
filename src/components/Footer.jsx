@@ -90,6 +90,15 @@ export default function Footer() {
                 <Mail className="w-4 h-4 text-[#3456f6] group-hover:scale-110 transition-transform shrink-0" />
                 <span className="break-all">{portfolioData.profile.email}</span>
               </a>
+              <a
+                href={portfolioData.profile.linkedin}
+                target="_blank"
+                rel="noreferrer"
+                className="flex items-center gap-2 text-sm text-[#bac3ff] hover:text-white transition-colors group"
+              >
+                <LinkedInIcon className="w-4 h-4 text-[#3456f6] group-hover:scale-110 transition-transform shrink-0" />
+                <span>LinkedIn Profile</span>
+              </a>
               <div className="flex items-center gap-2 text-xs text-[#8e8fa2]">
                 <span className="font-semibold text-[#dfe2eb]">Locations:</span>
                 <span>{portfolioData.profile.location}</span>

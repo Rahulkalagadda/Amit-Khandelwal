@@ -8,7 +8,7 @@ export const portfolioData = {
     bio: "Distinguished enterprise technology executive and Certified Chief Artificial Intelligence Officer (BCAA UK) with over two decades of global leadership directing multi-million P&L transformations, high-assurance cyber supply chain defenses, and sovereign AI implementations across Fortune 500 enterprises and industrial conglomerates.",
     location: "London · Dubai · Mumbai (Global Mobility)",
     email: "contact@amitkhandelwal.com",
-    linkedin: "https://linkedin.com/in/amitkhandelwal",
+    linkedin: "https://www.linkedin.com/in/amitk1/",
     availability: "Accepting Board Advisory Mandates, CAIO / CDO Executive Engagements & Keynotes",
   },
 
